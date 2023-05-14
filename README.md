@@ -19,7 +19,7 @@ For *https://addons.mozilla.org/fr/firefox/addon/search_by_image/*, the extensio
 ## 👀 Example
 ```console
 user@machine:~/firefoxExtensionID$ ./fei.sh search_by_image
-Extension : search_by_image
-ID        : {2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}
+ID found:
+{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}
 user@machine:~/firefoxExtensionID$
 ```
