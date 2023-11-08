@@ -3,9 +3,13 @@ Find the unique ID of a Firefox extension
 
 ## 🛠️ Installation
 ```bash
-git clone https://github.com/ax-mz/firefoxExtensionID.git
-cd firefoxExtensionID/
-chmod +x fei.sh
+set -xv && \
+cd && \
+git clone https://github.com/ax-mz/firefoxExtensionID.git; \
+cd firefoxExtensionID/ && \
+chmod +x fei.sh && \
+./fei.sh darkreader; \
+set +xv
 ```
 
 ## 💻 Usage
